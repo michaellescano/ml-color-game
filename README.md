@@ -2,6 +2,8 @@
 
 This is a simple game where you try to guess the color based of the RGB numbers. This project was built using strictly vanilla javascript. The game is live on https://ml-color-game.herokuapp.com
 
+![alt text](public/img/ml-color-game.jpg)
+
 ## Technologies Used
 
 - HTML5

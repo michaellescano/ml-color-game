@@ -46,7 +46,7 @@ const reset = () => {
   h1.style.backgroundColor = 'steelblue';
 };
 
-setUpSquares = () => {
+const setUpSquares = () => {
   squares.forEach((square, i) => {
     squares[i].addEventListener('click', function() {
       let clickedColor = this.style.backgroundColor;
@@ -65,13 +65,13 @@ setUpSquares = () => {
   });
 };
 
-changeColors = colors => {
+const changeColors = colors => {
   squares.forEach((square, i) => {
     squares[i].style.backgroundColor = colors;
   });
 };
 
-setUpModeButtons = () => {
+const setUpModeButtons = () => {
   modeButtons.forEach((button, i) => {
     modeButtons[i].addEventListener('click', function() {
       modeButtons[0].classList.remove('selected');
@@ -92,7 +92,7 @@ resetButton.addEventListener('click', function() {
   reset();
 });
 
-init = () => {
+const init = () => {
   setUpModeButtons();
   setUpSquares();
   reset();
